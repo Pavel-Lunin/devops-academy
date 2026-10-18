@@ -1,6 +1,6 @@
 """Author regression checks on synthetic inputs, never a student lab."""
 import unittest
-from network_examples import layers, subnet
+from network_examples import choose_route, layers, route_example, subnet
 
 
 class ExamplesTests(unittest.TestCase):
@@ -29,6 +29,36 @@ class ExamplesTests(unittest.TestCase):
         for value in ("192.0.2.999/24", "192.0.2.1/33", "::1/128"):
             with self.subTest(value=value), self.assertRaises(ValueError):
                 subnet(value)
+
+    def test_longest_prefix_independent_of_order(self):
+        routes = [("0.0.0.0/0", "192.0.2.1", "e0"),
+                  ("198.51.100.0/25", "192.0.2.2", "e0")]
+        expected = "192.0.2.2"
+        self.assertEqual(choose_route("198.51.100.13", routes)["next_hop"], expected)
+        self.assertEqual(choose_route("198.51.100.13", list(reversed(routes)))["next_hop"], expected)
+        self.assertEqual(route_example()["prefix"], "198.51.100.0/25")
+
+    def test_direct_route_uses_destination(self):
+        result = choose_route("192.0.2.11", [("192.0.2.0/24", None, "e0")])
+        self.assertTrue(result["direct"])
+        self.assertEqual(result["next_hop"], "192.0.2.11")
+
+    def test_default_and_missing_route(self):
+        self.assertIsNone(choose_route("203.0.113.5", []))
+        result = choose_route("203.0.113.5", [("0.0.0.0/0", "192.0.2.1", "e0")])
+        self.assertEqual(result["prefix"], "0.0.0.0/0")
+
+    def test_equal_prefix_is_explicitly_unsupported(self):
+        with self.assertRaisesRegex(ValueError, "equal prefixes"):
+            choose_route("192.0.2.11", [("192.0.2.0/24", None, "e0"),
+                                        ("192.0.2.0/24", None, "e1")])
+
+    def test_invalid_route_configuration(self):
+        for route in [("192.0.2.1/24", None, "e0"),
+                      ("0.0.0.0/0", "bad", "e0"),
+                      ("0.0.0.0/0", None, "")]:
+            with self.subTest(route=route), self.assertRaises(ValueError):
+                choose_route("192.0.2.11", [route])
 
 
 if __name__ == "__main__":

@@ -46,6 +46,6 @@
 1. [Промпт 03](prompts/03-interview-system.md): система репетиции, восемь полных примеров и локальный read-only помощник подготовлены; [проверка](docs/interviews-review.md). Остальные банки уточнять по мере авторства модулей, без фиктивных результатов.
 2. [Промпт 04](prompts/04-first-networking-module.md): подготовлены три урока S01 и безопасная офлайн-lab; [проверка](docs/networking-review.md). Prerequisites A-M01 ещё не проверялись.
 3. [Промпт 05](prompts/05-tachoapp-readonly-audit.md): только отдельный read-only запуск в TachoApp; изменения продукта этим курсом не разрешены.
-4. По мере обучения — [занятие](prompts/06-study-session.md), [следующий модуль](prompts/07-author-next-module.md), [аудит качества](prompts/08-quality-audit.md).
+4. [Промпт 07](prompts/07-author-next-module.md): следующая партия A-M02-S02 подготовлена; [проверка](docs/networking-next-review.md). По мере обучения — [занятие](prompts/06-study-session.md), [следующий модуль](prompts/07-author-next-module.md), [аудит качества](prompts/08-quality-audit.md).
 
 Навигация: [все ID и модули](curriculum/INDEX.md) · [сравнение исходников](docs/source-roadmap-comparison.md) · [источники](resources/SOURCES.md) · [прогресс](PROGRESS.md) · [аудит](docs/curriculum-review.md).

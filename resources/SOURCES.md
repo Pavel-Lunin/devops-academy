@@ -88,3 +88,17 @@
 Для GNU Bash и SLSA 1.2 содержимое не получено; это отражено как «не проверено», а не как отсутствие документа в интернете. Неуспешный запрос RFC 1122 на rfc-editor был заменён успешным чтением первоисточника IETF (D05); HTTP overview взят из открытой страницы Mozilla D04.
 
 Самостоятельные вопросы и сценарии Academy — авторские, не заимствованный список вакансий. Сопоставление утверждений двух расшифровок и решения автора — в [сравнении](../docs/source-roadmap-comparison.md).
+
+## Дополнение Networking 04/07 — 2026-10-18
+
+Для D05 дополнительно прочитаны §1.1.1, §1.1.3 и §3.3.1.1; D06 — [текст RFC826](https://www.rfc-editor.org/rfc/rfc826.html), The Problem, Packet Generation/Reception. Это уточнение первоначальной проверки URL/оглавления.
+
+| ID | Точный раздел | Язык / доступ | Что проверено и время чтения |
+|---|---|---|---|
+| <a id="d53"></a>D53 | [RFC1918 §3](https://www.rfc-editor.org/rfc/rfc1918.html#section-3) | EN; бесплатно без входа | Три private-блока; текст/URL2026-10-18; студенту5мин; не тест реальной сети |
+| <a id="d54"></a>D54 | [RFC4632 §3.1](https://www.rfc-editor.org/rfc/rfc4632.html#section-3.1) | EN; бесплатно без входа | Длина префикса и маска; текст/URL2026-10-18;5мин на урок; не тест реальной сети |
+| <a id="d55"></a>D55 | [Python3.9 ipaddress IPv4Interface/IPv4Network](https://docs.python.org/3.9/library/ipaddress.html#ipaddress.IPv4Interface) | EN; бесплатно без входа | Свойства сети/hosts и исключения31/32; текст/URL2026-10-18;5мин; примеры проверены на3.9.6; не тест реальной сети |
+| <a id="d56"></a>D56 | [RFC2131 §3.1, Figure3](https://www.rfc-editor.org/rfc/rfc2131.html#section-3.1) | EN; бесплатно без входа | Начальная выдача DHCP и аренда; текст/URL2026-10-18;4мин; не тест реальной сети |
+| <a id="d57"></a>D57 | [RFC3022 §2, §2.1/2.2](https://www.rfc-editor.org/rfc/rfc3022.html#section-2) | EN; бесплатно без входа | Basic NAT/NAPT; текст/URL2026-10-18;3мин; не тест реальной сети |
+| <a id="d58"></a>D58 | [RFC5737 §3](https://www.rfc-editor.org/rfc/rfc5737.html#section-3) | EN; бесплатно без входа | Три документальных блока; текст/URL2026-10-18; справка автора, не дополнительное чтение; не тест реальной сети |
+| <a id="d59"></a>D59 | [IANA IPv4 Special-Purpose Address Space](https://www.iana.org/assignments/iana-ipv4-special-registry) | EN; бесплатно без входа | Строки Loopback/Private-Use/Documentation и смысл свойств; URL/таблица2026-10-18; справка автора; не тест реальной сети |

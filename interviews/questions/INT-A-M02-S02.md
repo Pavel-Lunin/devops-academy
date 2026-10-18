@@ -9,7 +9,7 @@
 |---|---|---|
 | <a id="q-a-m02-s02-01"></a>`Q-A-M02-S02-01` | definition | Что описывают IPv4-адрес и префикс? |
 | <a id="q-a-m02-s02-02"></a>`Q-A-M02-S02-02` | mechanism | Как отличить private, public и loopback адрес? |
-| <a id="q-a-m02-s02-03"></a>`Q-A-M02-S02-03` | definition | Как проверить принадлежность двух адресов одной подсети? |
+| <a id="q-a-m02-s02-03"></a>`Q-A-M02-S02-03` | definition | Что такое адрес сети/broadcast и как проверить принадлежность одной подсети? |
 | <a id="q-a-m02-s02-04"></a>`Q-A-M02-S02-04` | mechanism | Что делает default gateway? |
 | <a id="q-a-m02-s02-05"></a>`Q-A-M02-S02-05` | mechanism | Чем различаются routing, NAT и DHCP? |
 | <a id="q-a-m02-s02-06"></a>`Q-A-M02-S02-06` | troubleshooting | Адрес выдан по DHCP, но внешнего доступа нет: что проверить? |
@@ -19,3 +19,5 @@
 После фактического ответа: оценка 0–3 с объяснением и учётом подсказок; фиксация результата в Markdown, повторение D+7/D+30 в едином реестре. Здесь нет даты проведения, оценок или ответов студента.
 
 Навигация: [все разделы](../README.md) · [расписание](../review-schedule.md).
+
+Полные карточки: [Q01](networking/Q-A-M02-S02-01.md), [Q02](networking/Q-A-M02-S02-02.md), [Q03](networking/Q-A-M02-S02-03.md), [Q04](networking/Q-A-M02-S02-04.md), [Q05](networking/Q-A-M02-S02-05.md), [Q06](networking/Q-A-M02-S02-06.md), [Q07](networking/Q-A-M02-S02-07.md), [Q08](networking/Q-A-M02-S02-08.md). Вопросы35 мин +обратная связь10 +повторение15 =60. [Проверка автора](../../docs/networking-next-review.md).
