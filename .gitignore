@@ -1,0 +1,33 @@
+# Локальные настройки и служебные файлы.
+.DS_Store
+.idea/
+.vscode/
+
+# Секреты: даже учебные значения не должны попадать в Git.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+
+# Будущие зависимости, результаты сборок и состояние лаборатории.
+node_modules/
+.venv/
+__pycache__/
+dist/
+coverage/
+*.log
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+projects/devops-lab/runtime/
+*.qcow2
+*.vmdk
+*.vdi
+*.iso
