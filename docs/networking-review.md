@@ -4,7 +4,7 @@
 
 ## Подготовлено
 
-Три полнотекстовых урока [A-M02-S01](../curriculum/A-M02-networking/SYLLABUS.md#a-m02-s01), одна трёхчасовая [lab](../labs/LAB-A-M02-S01-01-network-path/README.md), [ENV-01](../labs/environments/ENV-01-offline-network.md). Восемь полных Q-карточек, шесть базовых вопросов и два диагностических кейса; ключи и разбор отдельно. [Ровно одна демонстрация оценки](../interviews/examples/evaluation-demo.md) явно авторская, не результат студента.
+Три полнотекстовых урока [A-M02-S01](../curriculum/A-M02-networking/SYLLABUS.md#a-m02-s01), одна трёхчасовая [lab](../labs/LAB-A-M02-S01-01-network-path/README.md), [ENV-01](../labs/environments/ENV-01-offline-network.md). Восемь полных Q-карточек, шесть базовых вопросов и два диагностических кейса; критерии и эталонный разбор находятся отдельно.
 
 ## Фактическая проверка
 
