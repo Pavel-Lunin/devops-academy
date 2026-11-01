@@ -11,6 +11,19 @@
 | SRC-01 | [Первый roadmap](source-roadmaps/01-devops-roadmap-video-transcript.txt) | локальный исходник прочитан | URL/автор/дата публикации не установлены; оценки сроков и полноты — мнение автора |
 | SRC-02 | [ChillDevOps roadmap](source-roadmaps/02-chilldevops-roadmap-video-transcript.txt) | локальный исходник прочитан | Во вступлении назван 2025 год; это не подтверждает дату публикации/актуальность |
 
+## Разбор изображений Linux — 2026-11-01
+
+Локальный исходник SRC-03: три изображения пользователя в `interviews/` прочитаны; происхождение, авторство и актуальность списка не установлены. Видеоссылка с изображения не проверялась. Это список для авторского разбора, а не доказательство частоты вопросов на рынке.
+
+| Источник | Раздел и проверенный объём | Язык / доступ |
+|---|---|---|
+| [proc_loadavg(5)](https://man7.org/linux/man-pages/man5/proc_loadavg.5.html), [uptime(1)](https://man7.org/linux/man-pages/man1/uptime.1.html) | Состав и периоды load average | EN, открыты 2026-11-01 |
+| [symlink(7)](https://man7.org/linux/man-pages/man7/symlink.7.html) | Различия символических и жёстких ссылок | EN, открыт 2026-11-01 |
+| [Linux kernel: /proc](https://www.kernel.org/doc/html/v6.15/filesystems/proc.html) | Раздел 3.1: контекст выбора OOM | EN, открыт 2026-11-01 |
+| [Linux kernel: /proc/stat](https://docs.kernel.org/6.8/filesystems/proc.html) | Поле iowait и ограничение учёта | EN, открыт 2026-11-01 |
+
+Проверены только указанные фрагменты; команды не запускались, остальные ответы — черновик. Разбор: [linux-image-reference.md](../interviews/answer-keys/linux-image-reference.md).
+
 ## Все кандидаты из задания и ограничения доступа
 
 | ID | Точная ссылка | Язык | Статус | Дата проверки / попытки | Что проверено и что нет |
