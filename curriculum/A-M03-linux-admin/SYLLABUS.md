@@ -1,6 +1,6 @@
 # A-M03 — Linux administration, Bash и диагностика
 
-**Статус программы: черновик. Все перечисленные уроки и labs — запланировано; полнотекстовых уроков, готовых заданий и проверенной среды здесь нет.**
+**Статус программы: черновик. Создан конспект по теме процессов для A-M03-S02-L01; остальные уроки, labs, задания и проверка среды остаются планом.**
 
 - Ступень: A; недели 7–11; глубина тем: J0/J1.
 - Цель: Управлять учебным сервисом, доступами и ресурсами Linux.
@@ -87,7 +87,7 @@
 
 | ID (запланировано) | Неделя | Уровень | Тема → конкретные понятия | Т, мин | Prerequisite | Junior-вопрос / диагностическая ситуация | Источники темы |
 |---|---|---|---|---|---|---|---|
-| <a id="a-m03-s02-l01"></a>`A-M03-S02-L01` | W09 | J0 | Жизненный цикл процесса; fork/exec обзор, PID/PPID, signals, exit status, zombies обзор | 60 | [A-M03-S01-L06](../A-M03-linux-admin/SYLLABUS.md#a-m03-s01-l06) | Почему kill -9 мешает корректному завершению? | [D02](../../resources/SOURCES.md#d02), [D01](../../resources/SOURCES.md#d01) |
+| <a id="a-m03-s02-l01"></a>[A-M03-S02-L01](lessons/A-M03-S02-L01-linux-processes.md) | W09 | J0 | Жизненный цикл процесса; fork/exec обзор, PID/PPID, signals, exit status, zombies обзор | 60 | [A-M03-S01-L06](../A-M03-linux-admin/SYLLABUS.md#a-m03-s01-l06) | Почему kill -9 мешает корректному завершению? | [D02](../../resources/SOURCES.md#d02), [D01](../../resources/SOURCES.md#d01) |
 | <a id="a-m03-s02-l02"></a>`A-M03-S02-L02` | W09 | J0 | Сервис под управлением; systemd unit, dependencies, start/enable, restart policy, environment | 60 | [A-M03-S02-L01](../A-M03-linux-admin/SYLLABUS.md#a-m03-s02-l01) | Чем запущен отличается от включён при загрузке? | [D02](../../resources/SOURCES.md#d02), [D01](../../resources/SOURCES.md#d01) |
 | <a id="a-m03-s02-l03"></a>`A-M03-S02-L03` | W09 | J0 | Журнал и наблюдение; journald, log severity, timestamps, service status, correlation | 60 | [A-M03-S02-L02](../A-M03-linux-admin/SYLLABUS.md#a-m03-s02-l02) | Почему active ещё не доказывает полезную работу сервиса? | [D02](../../resources/SOURCES.md#d02), [D01](../../resources/SOURCES.md#d01) |
 | <a id="a-m03-s02-l04"></a>`A-M03-S02-L04` | W10 | J0 | Shell как инструмент; quoting, expansion, variables, environment, redirect, pipeline, exit code | 60 | [A-M03-S02-L03](../A-M03-linux-admin/SYLLABUS.md#a-m03-s02-l03) | Почему пробел в имени ломает неаккуратный скрипт? | [D02](../../resources/SOURCES.md#d02), [D01](../../resources/SOURCES.md#d01) |

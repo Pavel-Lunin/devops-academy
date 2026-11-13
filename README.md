@@ -18,6 +18,7 @@
 | Документ | Содержание |
 |---|---|
 | [DEVOPS-ROADMAP.html](DEVOPS-ROADMAP.html) | Визуальная траектория на 45 недель |
+| [DEVOPS-LEARNING-PATH.html](DEVOPS-LEARNING-PATH.html) | Подробные блоки A/B, обязательная основа, расширение и вопросы для самопроверки |
 | [ROADMAP.md](ROADMAP.md) | Этапы A/B, модули и проверяемые результаты |
 | [curriculum/INDEX.md](curriculum/INDEX.md) | 17 модулей, разделы, темы, зависимости и статус материалов |
 | [PROGRESS.md](PROGRESS.md) | Исходный профиль и текущее состояние обучения |
